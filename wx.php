@@ -4,14 +4,16 @@
  * 
  * @version    [V3.0]   		
  * @author     [ty1921] 			<[ty1921@gmail.com]>
- * @param 	   [type]		 		[get参数type，则授权完成后返回到该backurl]
- * @param 	   [backurl]		 	[get参数backurl，则授权完成后返回到该backurl]
+ * @param 	[type]		 		[get参数type，不传则默认请求openid，为userinfo时取用户头像昵称]
+ * @param 	[backurl]		 	[get参数backurl，则授权完成后返回到该backurl]
  * @createtime [2017-8-4 ]
  * @update 	   [2018-7-30]
  *
  *
  * 
- * eg. 简单模式，仅获取openid  http://xxx.com/wx.php?backurl=http://192.168.xxx.xxx
+ * eg. 【http://xxx.com/wx.php】为本PHP页面的公网地址,【http://192.168.xxx.xxx】为需要获取微信数据的页面
+ *
+ *     简单模式，仅获取openid  http://xxx.com/wx.php?backurl=http://192.168.xxx.xxx
  * 
  *     复杂模式，获取昵称、头像  http://xxx.com/wx.php?type=userinfo&backurl=http://192.168.xxx.xxx
  */
