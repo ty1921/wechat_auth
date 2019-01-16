@@ -2,13 +2,13 @@
 /**
  * 本页用于微信授权登录及其代理
  * 
- * @version    [V3.0]   		
+ * @version    [V3.1]   		
  * @author     [ty1921] 			<[ty1921@gmail.com]>
  * @param 	[type]		 		[get参数type，不传则默认请求openid，为userinfo时取用户头像昵称]
  * @param 	[backurl]		 	[get参数backurl，则授权完成后返回到该backurl]
  * @createtime [2017-8-4 ]
  * @update 	   [2018-7-30]
- *
+ * @update 	   [2019-1-16]                   [修正注释中的错误，补充解释eg.]
  *
  * 
  * eg. 【http://xxx.com/wx.php】为本PHP页面的公网地址,【http://192.168.xxx.xxx】为需要获取微信数据的页面
