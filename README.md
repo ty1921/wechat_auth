@@ -5,6 +5,7 @@
 可布置在其他服务器，供多个业务共同使用。
 
 **部署：**
+
 1、进入到web根目录
 
 2、git clone https://github.com/ty1921/wechat_auth.git
